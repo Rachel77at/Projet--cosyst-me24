@@ -23,10 +23,10 @@ L'objectif principal est de modéliser ces interactions et de visualiser leur é
 - Génération d'un **monde** sous forme de grille où chaque case peut contenir :
   - **Herbe** (qui repousse avec le temps).
   - **Proies** (qui se déplacent, mangent et se reproduisent).
-  - **Prédateurs** (qui chassent les proies pour se nourrir).
+  - **Prédateurs** (qui chassent les proies pour se nourrir, et se reproduisent).
 - Simulation des cycles de vie des entités :
   - **Reproduction** des proies et prédateurs selon des conditions spécifiques.
-  - **Mort des prédateurs** en cas de famine.
+  - **Mort des prédateurs** en cas de manque d'énergie.
 - **Statistiques** : Évolution des populations (affichée à chaque itération).
 
 ---
